@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(255, 250, 250);
+    min-height: 100vh;
+    margin: 0; 
+    display:flex; 
+    flex-direction:column; 
+}
+.card{
+    /*background-color: transparent;*/
+    background-color: white;
+}
+
+/*LOGO: medidas y posición*/
+.logo{
+    width:350px ;
+    height:30px;
+    padding: 0 2rem;
+}
+.profile-name{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+}
+
+/*contenedor de platos*/
+.platos {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 12rem;
+    max-width: 15rem;
+}
+.plato {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+.plato_imagen {
+    width: 100%;
+    height: 10rem;
+}
+.plato img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.plato .detalle {
+    padding: 5px;
+}
+
+.btn-carrito{
+    float: inline-end;
+    left: 0%;
+    bottom: 0%;
+}
+
+.paginator a{
+    border-radius: 5px;
+}

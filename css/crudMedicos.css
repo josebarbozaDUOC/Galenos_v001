@@ -1,0 +1,18 @@
+.listData{
+    font-size:medium;
+}
+.btn{
+
+}
+.noAgenda{
+    background-color: rgba(255, 0, 0, 0.329);
+}
+
+@media only screen and (max-width: 700px) {
+    .listData {
+    font-size:small;
+    }
+    .btn{
+        width: 100%;
+    }
+}
